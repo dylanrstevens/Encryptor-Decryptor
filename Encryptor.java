@@ -9,7 +9,6 @@ public class Encryptor {
     public static void toFile(String encryption, String sourceLink) {
         try {
             BufferedWriter bw = new BufferedWriter(new FileWriter(sourceLink));
-            //"C:\\Users\\dmans\\Desktop\\UVIC\\UVIC\\CSC 115\\applicationProject1\\src\\Encryption.txt"
             bw.write(encryption);
             bw.close();
         }
